@@ -1,0 +1,45 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+  display: block;
+  text-align: center;
+}
+
+h1 {
+  border-radius: 6px;
+  padding: 2px;
+  border: 1px solid #fff;
+  display: inline-block;
+}
+
+  h1 span {
+    font-family: 'Supermercado One', cursive;
+    font-weight: bold;
+    font-size: 45px;
+    background-color: #ddd;
+    padding: 2px 10px;
+    color: #000;
+    display: inline-block;
+    border-radius: 3px;
+    text-shadow: 0px 1px 0px #fff;
+    border-top: #fff 1px solid;
+  }
+
+
+#players {
+  list-style: none;
+}
+
+  #players li {
+    display: inline-block;
+    background-color: #444;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    color: #888;
+    padding: 3px;
+    color: #fff;
+  }
